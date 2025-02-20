@@ -10,7 +10,7 @@
 - Without sliding window concept - brute force solution of above type of problem will genrally use nested loops therefor time complexity will be O(n^2)
 - In brute force solution we will be doing a lot to repeated work - by evaluating complete window again.
 - Instead if we just remove first index value from our window and include array next index value in window(sliding mechanism) - we will get one output for evaluation. This will avoid nested loops and time complexity will improve(generally O(n)).
-> *Note: When optimizing out program, first write brute force solution and then check if there if any repeated work being done. If yes, how can it be avoided - this way we can optimize our code.
+> When optimizing our program, first write brute force solution and then check if there if any repeated work being done. If yes, how can it be avoided - this way we can optimize our code.
 
 ### Variations of Sliding Window problems:
 - Fixed size sliding window
